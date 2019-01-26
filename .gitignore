@@ -5,6 +5,7 @@
 Servers/
 target/
 bin/
+dataout/
 .cache-main
 .classpath
 .project
