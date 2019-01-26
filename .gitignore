@@ -1,7 +1,14 @@
 .idea/
+.metadata/
 .settings/
+.recommenders/
+Servers/
 target/
+bin/
+.cache-main
 .classpath
 .project
+*.iml
 *.log
+*.swp
 *.me.bat
