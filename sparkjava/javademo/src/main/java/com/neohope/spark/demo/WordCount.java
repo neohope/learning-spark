@@ -1,6 +1,5 @@
 package com.neohope.spark.demo;
 
-import java.io.Serializable;
 import java.util.Arrays;
 import java.util.List;
 
@@ -13,8 +12,7 @@ import org.apache.spark.api.java.JavaSparkContext;
 /**
  * 单词出现频率统计
  */
-public class WordCount implements Serializable{
-	private static final long serialVersionUID = 1L;
+public class WordCount{
 	
 	JavaSparkContext sc;
 	

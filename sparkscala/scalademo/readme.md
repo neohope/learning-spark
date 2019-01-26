@@ -4,7 +4,7 @@ This is a code example that complements the material in the Spark O'Reilly book.
 
 # How to build
 1.下载并配置好jdk-8
-2.下载并配置好scala-2.12.8
+2.下载并配置好scala-2.11.x，部分库只支持到2.11
 3.下载并配置好sbt-1.2.7
 
 
@@ -73,7 +73,7 @@ sbt eclipse
 
 # generate protobuf class
 '''shell
-#need protobuf2.x
+#need protobuf2.x，sbt默认导入的jar包为2.5
 protoc.exe --java_out . places.proto
 protoc.exe --java_out . address_book.proto
 '''
