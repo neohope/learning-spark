@@ -2,19 +2,9 @@ About
 ====================
 This is a code example that complements the material in the Spark O'Reilly book. 
 
+sparkjava: javademo 	
 
-Requirements
-====================
+sparkpython: pythondemo
 
-
-
-Build
-====================
-
-
-
-Run
-====================
-
-
+sparkscala: scalademo
 
