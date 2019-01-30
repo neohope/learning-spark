@@ -1,4 +1,4 @@
-package com.neohope.spark.demo;
+package com.neohope.spark.demo.csv;
 
 import java.io.StringReader;
 import java.util.Iterator;

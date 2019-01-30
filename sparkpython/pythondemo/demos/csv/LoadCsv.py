@@ -32,7 +32,7 @@ def loadRecords(fileNameContents):
 
 def writeRecords(records):
     """
-    写入CSV文件
+    写入CSV文件s
     """
     output = StringIO()
     writer = csv.DictWriter(output, fieldnames=["name", "favouriteAnimal"])
@@ -42,8 +42,8 @@ def writeRecords(records):
 
 
 if __name__ == "__main__":
-    inputFile="../../../datain/favourite_animals.csv"
-    outputFile="../../../dataout/loadcsv.py"
+    inputFile = "../../../datain/favourite_animals.csv"
+    outputFile = "../../../dataout/loadcsv.py"
     outputFileFull = "../../../dataout/loadcsvfull.py"
 
     """

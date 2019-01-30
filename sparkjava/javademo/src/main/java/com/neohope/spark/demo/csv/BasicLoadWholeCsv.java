@@ -1,4 +1,4 @@
-package com.neohope.spark.demo;
+package com.neohope.spark.demo.csv;
 
 import java.util.List;
 
